@@ -7,8 +7,6 @@
 body {
   background-color: black;
   color: white;
-  scrollbar-width: thin;
-  scrollbar-color: #f7d354, #121212;
 }
 a {
   text-decoration: none;
@@ -18,4 +16,12 @@ a {
 
 a:hover {
   color: #b8930c;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #12121263;
+}
+::-webkit-scrollbar-thumb {
+  background: #f7d354;
+  border-radius: 5px;
 }
