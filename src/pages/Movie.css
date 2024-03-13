@@ -18,10 +18,12 @@
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .movie-page .movie-card h2 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .movie-page .movie-card p {
@@ -35,6 +37,7 @@
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 2rem;
+  margin: 3;
 }
 
 .info {
@@ -49,9 +52,20 @@
 }
 
 .description {
-    padding-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 
 .description p {
-    line-height: 1.4rem;
+  line-height: 1.4rem;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-page .movie-card img,
+  .movie-page .movie-card h2,
+  .movie-page .movie-card p {
+    width: 100%;
+  }
+  .info {
+    margin: .5rem;
+  }
 }
