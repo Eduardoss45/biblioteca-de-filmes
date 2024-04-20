@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #f7d354;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #b8930c;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #12121263;
+}
+::-webkit-scrollbar-thumb {
+  background: #f7d354;
+  border-radius: 5px;
+}
